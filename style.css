@@ -38,3 +38,21 @@ main{
     width: 265px;
     height: 468px;
 }
+
+.rede-social{
+    text-align: right;
+}
+
+.rede-social a img{
+    border-radius: 50%;
+    width: 50px;
+    margin: 10px;
+    box-sizing: border-box;
+    &:hover{
+        border: 2px solid white;
+        box-shadow: 3px 3px 2px rgba(0, 0, 0, 0.39);
+        transform: translate(-7px, -5px);
+        transition: transform .2s, border .2s;
+        box-shadow: 3px 3px 2px rgba(0, 0, 0, 0.39);
+    }
+}
